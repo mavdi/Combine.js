@@ -1,0 +1,23 @@
+{
+  "name": "combine",
+  "version": "0.1.0",
+  "description": "JSON API compliant resources inspired by Harvester.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register"
+  },
+  "author": "Mehdi Avdi",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.27",
+    "hapi": "^8.6.1",
+    "joi": "^6.4.3",
+    "lodash": "^3.9.3",
+    "mongoose": "^4.0.5"
+  },
+  "devDependencies": {
+    "babel": "^5.5.6",
+    "mocha": "^2.2.5",
+    "should": "^6.0.3"
+  }
+}
